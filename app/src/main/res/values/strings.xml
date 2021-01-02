@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Projects</string>
+    <string name="interesting_desis_around_you">interesting Desis around you</string>
+    <string name="meet_some_of_the_most">Meet some of the most</string>
+    <string name="by_signing_in_you_agree_to_the_terms_privacy"><![CDATA[By signing in you agree to the Terms & Privacy]]></string>
+    <string name="continue_with_phone">Continue with Phone</string>
+    <string name="login_with_facebook">Login with Facebook</string>
+    <string name="continu">Continue</string>
+    <string name="_4_7">4\'7\'\'</string>
+    <string name="_4_5">4\'5\'\'</string>
+
+</resources>

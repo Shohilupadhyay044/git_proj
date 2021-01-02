@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ScrollActivity11">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:paddingTop="4dp"
+            android:paddingStart="@dimen/dp_50"
+            android:textStyle="bold"
+            android:textColor="#9400D3"
+            android:textSize="18sp"
+            />
+
+        <ImageView
+            android:layout_marginLeft="30dp"
+            android:layout_width="50dp"
+            android:background="@drawable/button_chooser"
+            android:layout_height="40dp"
+            android:onClick="aisle"
+            android:src="@drawable/a"
+            android:layout_marginTop="25dp"/>
+
+        <ImageView
+            android:layout_marginLeft="110dp"
+            android:src="@drawable/pinkearth"
+            android:onClick="Earth"
+            android:background="@drawable/button_chooser"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"
+            tools:ignore="OnClick" />
+
+        <ImageView
+            android:layout_marginLeft="200dp"
+            android:layout_width="50dp"
+            android:src="@drawable/stars"
+            android:onClick="star"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"/>
+
+
+        <ImageView
+            android:layout_marginLeft="300dp"
+            android:layout_width="50dp"
+            android:onClick="heart"
+            android:src="@drawable/pinkheart"
+            android:background="@drawable/button_chooser"
+            android:layout_height="40dp"
+            android:layout_marginTop="25dp"/>
+
+
+    </RelativeLayout>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/white">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:text="Concierge"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="40sp"/>
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="270dp"
+                android:src="@drawable/girl"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/rectangle_tera"
+                android:layout_marginTop="90dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_height="40dp"
+                android:text="Vanshika"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="290dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="40dp"
+                android:text="1.8 kms Away"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:layout_marginLeft="180dp"
+                android:src="@drawable/sgirl"
+                android:layout_width="165dp"
+                android:layout_height="265dp"
+                android:layout_marginTop="90dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="210dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_height="40dp"
+                android:text="Joyti"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="290dp"
+                android:layout_marginLeft="210dp"
+                android:textStyle="bold"
+                android:layout_height="40dp"
+                android:text="27.1 kms Away"
+                android:textSize="15sp"/>
+
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="270dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/tgirl"
+                android:layout_marginTop="380dp"/>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:textColor="@color/white"
+                android:background="@drawable/rectangle_yellow"
+                android:layout_marginLeft="30dp"
+                android:textSize="20sp"
+                android:text="Get Concierge"
+                android:gravity="center"
+                android:layout_marginTop="480dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="550dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_height="40dp"
+                android:text="Khushboo"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="590dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="40dp"
+                android:text="1.2 kms Away"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:src="@drawable/fgirl"
+                android:layout_marginLeft="180dp"
+                android:layout_width="163dp"
+                android:layout_height="280dp"
+                android:layout_marginTop="380dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="550dp"
+                android:layout_marginLeft="210dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_height="40dp"
+                android:text="Riya"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="590dp"
+                android:layout_marginLeft="210dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="40dp"
+                android:text="2.1 kms Away"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:src="@drawable/five"
+                android:layout_width="160dp"
+                android:layout_height="270dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="680dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="840dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_height="40dp"
+                android:text="Mansi"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="880dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="40dp"
+                android:text="5.2 kms Away"
+                android:textSize="15sp"/>
+
+
+            <ImageView
+                android:src="@drawable/sixgirl"
+                android:layout_marginLeft="180dp"
+                android:layout_width="163dp"
+                android:layout_height="270dp"
+                android:layout_marginTop="680dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="840dp"
+                android:layout_marginLeft="210dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_height="40dp"
+                android:text="Natasha"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="880dp"
+                android:layout_marginLeft="210dp"
+                android:textStyle="bold"
+                android:layout_height="40dp"
+                android:text="7.1 kms Away"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:src="@drawable/sevengirl"
+                android:layout_width="160dp"
+                android:layout_height="270dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="980dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="1150dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_height="40dp"
+                android:text="Silpa"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginTop="1190dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:layout_height="40dp"
+                android:text="5.2 kms Away"
+                android:textSize="15sp"/>
+
+
+            <ImageView
+                android:src="@drawable/eightgirl"
+                android:layout_marginLeft="180dp"
+                android:layout_width="165dp"
+                android:layout_height="270dp"
+                android:layout_marginTop="980dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="1150dp"
+                android:layout_marginLeft="210dp"
+                android:textStyle="bold"
+                android:layout_height="40dp"
+                android:text="Nikita"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="1190dp"
+                android:layout_marginLeft="210dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="40dp"
+                android:text="7.1 kms Away"
+                android:textSize="15sp"/>
+
+            <ImageView
+                android:src="@drawable/ninegirl"
+                android:layout_width="160dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="270dp"
+                android:layout_marginTop="1280dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="1450dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="40dp"
+                android:text="Mansi"
+                android:textSize="20sp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="1490dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="40dp"
+                android:text="5.2 kms Away"
+                android:textSize="15sp"/>
+
+
+            <ImageView
+                android:layout_marginLeft="180dp"
+                android:layout_width="165dp"
+                android:src="@drawable/girlten"
+                android:layout_height="270dp"
+                android:layout_marginTop="1280dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="1450dp"
+                android:layout_marginLeft="210dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="40dp"
+                android:text="Natasha"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="1490dp"
+                android:layout_marginLeft="210dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_height="40dp"
+                android:text="7.1 kms Away"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/t"
+                android:layout_width="340dp"
+                android:layout_height="340dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/rectangle_black"
+                android:layout_marginTop="1590dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:paddingTop="8dp"
+                android:layout_marginLeft="60dp"
+                android:text="See over 100000+ handpicked"
+                android:layout_marginTop="1610dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginLeft="60dp"
+                android:text="members that meet your search"
+                android:gravity="center"
+                android:layout_marginTop="1650dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_marginLeft="60dp"
+
+                android:text="criteria in one place. And that's"
+                android:gravity="center"
+                android:layout_marginTop="1690dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="160dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:text="all."
+                android:gravity="center"
+                android:layout_marginTop="1725dp"/>
+
+            <Button
+                android:layout_width="280dp"
+                android:layout_height="70dp"
+                android:textColor="@color/white"
+                android:background="@drawable/rectangle_yellow"
+                android:layout_marginLeft="40dp"
+                android:textSize="20sp"
+                android:text="know More."
+                android:gravity="center"
+                android:layout_marginTop="1805dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</LinearLayout>

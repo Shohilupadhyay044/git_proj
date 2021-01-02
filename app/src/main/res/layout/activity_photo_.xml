@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Photo_Activity">
+
+    <TextView
+        android:id="@+id/photos"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Photos"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:paddingStart="30dp"
+        android:paddingTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="150dp"
+        android:onClick="Gallery"
+        android:layout_height="160dp"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@id/photos"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/plus1"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:onClick="visible"
+        app:layout_constraintStart_toStartOf="@id/image1"
+        app:layout_constraintEnd_toEndOf="@id/image1"
+        android:src="@drawable/grayplusth"
+        app:layout_constraintTop_toTopOf="@id/image1"
+        app:layout_constraintBottom_toBottomOf="@id/image1"/>
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:onClick="Gallery1"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/photos"
+        app:layout_constraintStart_toEndOf="@id/image1"
+        />
+
+    <ImageView
+        android:id="@+id/plus2"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:onClick="visible2"
+        app:layout_constraintStart_toStartOf="@id/image2"
+        app:layout_constraintEnd_toEndOf="@id/image2"
+        android:src="@drawable/grayplusth"
+        app:layout_constraintTop_toTopOf="@id/image2"
+        app:layout_constraintBottom_toBottomOf="@id/image2"
+        tools:ignore="OnClick" />
+
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:onClick="Gallery3"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@id/image1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/plus3"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:onClick="visible3"
+        app:layout_constraintStart_toStartOf="@id/image3"
+        app:layout_constraintEnd_toEndOf="@id/image3"
+        android:src="@drawable/grayplusth"
+        app:layout_constraintTop_toTopOf="@id/image3"
+        app:layout_constraintBottom_toBottomOf="@id/image3"/>
+
+
+
+
+    <ImageView
+       android:id="@+id/image4"
+        android:layout_width="150dp"
+        android:layout_height="160dp"
+        android:onClick="Gallery4"
+        android:background="@drawable/rectangle"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/image3"
+        app:layout_constraintTop_toBottomOf="@id/image2"/>
+
+    <ImageView
+        android:id="@+id/plus4"
+        android:layout_width="70dp"
+        android:layout_height="80dp"
+        android:onClick="visible4"
+        app:layout_constraintStart_toStartOf="@id/image4"
+        app:layout_constraintEnd_toEndOf="@id/image4"
+        android:src="@drawable/grayplusth"
+        app:layout_constraintTop_toTopOf="@id/image4"
+        app:layout_constraintBottom_toBottomOf="@id/image4"/>
+
+    <TextView
+        android:id="@+id/longtxt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@id/image3"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="We could not detect your face in "
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@id/longtxt"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="all your photos. Upload new photos"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@id/text6"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="clearly showing your face for "
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:paddingStart="30dp"
+        android:paddingTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toBottomOf="@id/text7"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="review"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@color/grey"
+        android:paddingTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:text="@string/continu"
+        android:onClick="Next"
+        android:background="@drawable/rectangle"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:backgroundTint="#9400D3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@id/text8"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

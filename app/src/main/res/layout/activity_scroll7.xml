@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ScrollActivity7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:paddingTop="4dp"
+        android:text="Study"
+        android:paddingStart="@dimen/dp_50"
+        android:textStyle="bold"
+        android:textColor="#9400D3"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:paddingTop="4dp"
+        android:text="you study"
+        android:paddingStart="@dimen/dp_50"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:paddingTop="4dp"
+        android:text="what?"
+        android:paddingStart="@dimen/dp_50"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        />
+
+    <ScrollView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Medicine"
+                android:onClick="Qualification"
+                android:background="@drawable/button_text_color"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/dp_50"
+                android:textSize="20sp"
+                tools:ignore="OnClick" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/rectangle_mera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Engineering"
+                android:onClick="Qualification"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_text_color"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/dp_50"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/rectangle_mera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Architecture"
+                android:onClick="Qualification"
+                android:background="@drawable/button_text_color"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/dp_50"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/rectangle_mera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Science"
+                android:onClick="Qualification"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_text_color"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/dp_50"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/rectangle_mera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Business"
+                android:onClick="Qualification"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_text_color"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/dp_50"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/rectangle_mera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Humanities and Arts"
+                android:onClick="Qualification"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/button_text_color"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/dp_50"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/rectangle_mera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Hotel"
+                android:onClick="Qualification"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/button_text_color"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/dp_50"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/rectangle_mera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Management"
+                android:background="@drawable/button_text_color"
+                android:onClick="Qualification"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/dp_50"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/rectangle_mera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Law"
+                android:onClick="Qualification"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:background="@drawable/button_text_color"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/dp_50"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/rectangle_mera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Design"
+                android:onClick="Qualification"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_text_color"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/dp_50"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/rectangle_mera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Psychology"
+                android:onClick="Qualification"
+                android:background="@drawable/button_text_color"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/dp_50"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/rectangle_mera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Finance"
+                android:onClick="Qualification"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_text_color"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/dp_50"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/rectangle_mera"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Other"
+                android:onClick="Qualification"
+                android:background="@drawable/button_text_color"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/black"
+                android:paddingTop="15dp"
+                android:textStyle="bold"
+                android:paddingStart="@dimen/dp_50"
+                android:textSize="20sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/rectangle_mera"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

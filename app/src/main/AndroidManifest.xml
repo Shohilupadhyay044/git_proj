@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projects">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Projects">
+        <activity android:name=".ScrollActivity13"></activity>
+        <activity android:name=".ScrollActivity12" />
+        <activity android:name=".ScrollActivity11" />
+        <activity android:name=".ScrollActivity10" />
+        <activity android:name=".Laststep" />
+        <activity android:name=".ScrollActivity8" />
+        <activity android:name=".ScrollActivity7" />
+        <activity android:name=".ScrollActivity6" />
+        <activity android:name=".ScrollActivity5" />
+        <activity android:name=".ScrollActivity4" />
+        <activity android:name=".ScrollActivity3" />
+        <activity android:name=".Scroll2_Activity" />
+        <activity android:name=".Scroll_Activity" />
+        <activity android:name=".Introduce_Activity" />
+        <activity android:name=".Photo_Activity" />
+        <activity android:name=".Otp_activity" />
+        <activity android:name=".Phone_Authentication" />
+        <activity android:name=".Login_Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
